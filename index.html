@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Homework #14</title>
+  </head>
+  <body>
+    <div class="controls">
+      <label for="px">
+        <p class="control__label">Пиксели</p>
+        <input class="control__input" type="range" min="0" max="200" step="20" name="px" id="px">
+      </label>
+
+      <label for="em">
+        <p class="control__label">EM</p>
+        <input class="control__input" type="range" min="0" max="20" step="5" name="em" id="em">
+      </label>
+
+      <label for="rem">
+        <p class="control__label">REM</p>
+        <input class="control__input" type="range" min="0" max="20" step="5" name="rem" id="rem">
+      </label>
+
+      <label for="htmlfz">
+        <p class="control__label">HTML Font size</p>
+        <input class="control__input" type="range" min="10" max="32" step="1" value="10" name="htmlfz" id="htmlfz">
+      </label>
+
+      <label for="remfz">
+        <p class="control__label">EM Font size</p>
+        <input class="control__input" type="range" min="10" max="32" step="1" value="10" name="emfz" id="emfz">
+      </label>
+    </div>
+
+    <div class="blocks">
+      <div class="block block__px"></div>
+
+      <div class="block__em__wrap">
+        <div class="block block__em"></div>
+      </div>
+
+      <div class="block__rem__wrap">
+        <div class="block block__rem"></div>
+      </div>
+    </div>
+
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
